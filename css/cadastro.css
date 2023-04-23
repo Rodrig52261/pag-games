@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #DADDE2, #B1BDC5, #889FA5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    background: rgba(255, 255, 255, 0.3);
+    height: 90vh;
+    width: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.login-header{
+    font-size: 30px;
+    font-weight: 400;
+    color: #251943;
+    text-transform: uppercase;
+    gap: 1,5rem;
+}
+
+.login-form{
+    width: 80%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.5;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form:hover{
+    background:white;
+}
+
+.check{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    margin-left: 9rem;
+    color: #251943;
+}
+
+.create-login{
+    margin-left: 7rem;
+}
+
+.create-login a{
+    text-decoration: none;
+    color: #251943;
+    font-weight: 500;
+}
+
+.create-login a:hover{
+    text-decoration: underline;
+    color: #544473;
+}
+
+.check-edit{
+    cursor: pointer;
+}
+
+.label{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.btn-edit{
+    width: 50%;
+    height: 2rem;
+    border: none;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    transition: 0.5;
+    text-transform: uppercase;
+}
+
+.btn-edit:hover{
+    background: rgb(39, 39, 39);
+}
+
+.footer{
+    display: flex;
+    padding-top: 3rem;
+}
+
+.social-facebook,
+.social-instagram,
+.social-google{
+    width: 50px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: white;
+    transition: .5 ease-out;
+    text-align: center;
+}
+
+.social-facebook:hover,
+.social-instagram:hover,
+.social-google:hover{
+    transform: scale(1.2);    
+}
+
+.senha{
+    padding-top: 20px;
+}
+
+.edit-senha{
+    text-decoration: none;
+    color: #251943;
+    font-weight: 500;
+}
+
+.edit-senha:hover{
+    text-decoration: underline;
+    color: #544473;
+}
+   

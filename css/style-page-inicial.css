@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 13vh;
+    background:linear-gradient(-45deg, black, white);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.nav{
+    border: 1px white solid;
+    width: 7rem;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.nav:hover{
+    background: black;
+    transform: scale(1.1);
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: white;
+    background: #ACA9BB;
+}
+
+.primeiro-jogo{
+    width: 50vh;
+    height: 30vh;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20vh;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    transition: .3s ;
+}
+
+.primeiro-jogo:hover{
+    transform: scale(1.1);
+}
+
+.minecraft,
+.the-witcher{ 
+    width: 50vh;
+    height: 40vh;
+    padding: 1rem;
+}
+
+.itens{
+   height: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.text{
+    height: 1px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 2vh;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.btn-edit{
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: .2s ease-in;
+    background: white;
+    color: black;
+}
+
+.btn-edit:hover{
+    background: rgb(207, 207, 207);
+}
